@@ -2,10 +2,8 @@ from mako.template import Template
 
 mako_template = Template(filename='templates/mako_template')
 
-mako_var = ('Ataşehir', 'Bağcılar', 'Bakırköy', 'Başakşehir', 'Bayrampaşa', 'Beylikdüzü', 'Beyoğlu',
-            'Büyükçekmece', 'Çekmeköy', 'Esenler', 'Esenyurt', 'Eyüpsultan', 'Fatih', 'Gaziosmanpaşa',
-            'Güngören', 'Kağıthane', 'Küçükçekmece', 'Sancaktepe', 'Şişli', 'Sultanbeyli', 'Sultangazi',
-            'Ümraniye', 'Üsküdar', 'Zeytinburnu')
+mako_var = ('Adalar', 'Ataşehir', 'Beykoz', 'Çekmeköy', 'Kadıköy', 'Kartal', 'Maltepe', 'Pendik',
+            'Sancaktepe', 'Sultanbeyli', 'Şile', 'Tuzla', 'Ümraniye', 'Üsküdar')
 
 print(mako_template.render(ilceler=mako_var))
 

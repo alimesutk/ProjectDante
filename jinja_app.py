@@ -1,10 +1,8 @@
 import jinja2
 
 jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader('/home/alimesut/DEV/ProjectDante'))
-jinja_var = {'ilceler': ['Ataşehir', 'Bağcılar', 'Bakırköy', 'Başakşehir', 'Bayrampaşa', 'Beylikdüzü', 'Beyoğlu',
-                         'Büyükçekmece', 'Çekmeköy', 'Esenler', 'Esenyurt', 'Eyüpsultan', 'Fatih', 'Gaziosmanpaşa',
-                         'Güngören', 'Kağıthane', 'Küçükçekmece', 'Sancaktepe', 'Şişli', 'Sultanbeyli', 'Sultangazi',
-                         'Ümraniye', 'Üsküdar', 'Zeytinburnu']}
+jinja_var = {'ilceler': ['Adalar', 'Ataşehir', 'Beykoz', 'Çekmeköy', 'Kadıköy', 'Kartal', 'Maltepe', 'Pendik',
+                         'Sancaktepe', 'Sultanbeyli', 'Şile', 'Tuzla', 'Ümraniye', 'Üsküdar']}
 
 template = jinja_env.get_template('templates/jinja_template')
 

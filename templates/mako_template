@@ -1,21 +1,18 @@
 <html>
   <head>
-    <title>İstanbul ilçeleri (MAKO)</title>
+    <title>Anadolu(MAKO)</title>
     <meta charset="UTF-8">
   </head>
   <body>
-    <div style="background-image: url('../static/moonman.png'); opacity: 15">
-    <p style="font-size: 20px; font-family: 'Droid Sans'; color: orangered">
-         &nbsp; İstanbul'da yapılacak yeni inşaatların yaratıcı sloganları: 🏗️🏗️🏗️️🏢🏢🏢
+    <div style="background-image: url('../static/uskudar.png'); opacity: 15">
+    <p style="font-size: 25px; font-family: 'Droid Sans'; color: #113903">
+         &nbsp; İstanbul Anadolu Yakası İlçeleri:
     </p>
     <ul>
     % for name in ilceler:
-      <li style="font-size: 15px; font-family:'Droid Sans Mono'; color:#757575;">${name} ilçesinde yeni bir hayat başlıyor.</li>
+      <li style="font-size: 20px; font-family:'Droid Sans Mono'; color:#083990;">${name}</li>
     % endfor
     </ul>
-    <div style="background-image: url('../static/esenyurt2.JPG'); opacity: 0.35">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
     </div>
   </body>
 </html>
